@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="shortcut icon" type="image/png" href="image/favicon.png">
+<meta chartset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>112 Project 3</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat"rel="stylesheet">
+</head>
+<body>
+
+
+
+
+<style>
+
+body{
+background-color:#aac4ff;
+}
+
+
+
+.product-image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    display: none;
+}
+
+.product-image-overlay .product-image-overlay-close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    line-height: 35px;
+    font-size: 20px;
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product-image-overlay img {
+    width: auto;
+    max-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.oval {
+  height: 30px;
+  width: 180px;
+  background-color: #987fff;
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-right: auto;
+  margin-top:30px;
+  animation: pulse 2s infinite alternate;
+
+}
+@keyframes pulse {
+	0% { transform: scale(1); filter: blur(0px); }
+	100% { transform: scale(1.25); filter: blur(5px); }
+}
+
+</style>
+
+
+
+
+<div class="popup">
+<img src="image/bub1a.png" class="bubble" id="sun">
+<div class="oval"></div>
+</div>
+
+<div class="show">
+  <div class="overlay"></div>
+  <div class="img-show">
+    <span>x</span>
+    <img src="image/beaut.jpg">
+  </div>
+</div>
+
+
+
+
+<a href="index.html"> <img src="image/boba.png" class="boba" id="boba"></a>
+
+
+
+
+
+
+
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js"></script>
+<script language="javascript" type="text/javascript" src="sketch.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="" type="text/javascript"></script>
+<script src="main.js"></script>
+
+</html>
