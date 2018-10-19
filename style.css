@@ -408,33 +408,13 @@ display: flex;
 
 
 
-.c9-ye {
-position: relative;
-overflow: hidden;
-}
-
-.c9-no{
-	overflow: hidden;
-	position: absolute;
-	line-height: 50px;
-	margin: 0px;
-	height: 150px;
-	width: auto;
-	-webkit-animation: cy 15s linear infinite;
-    animation: cy 15s linear infinite;
-}
-
-@-webkit-keyframes cy {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-}
 
 
 .cloud9{
 	height: 200px;
 	width: auto;
 	margin-top:30px;
-	
+
 }
 
 
